@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>ewattch</id>
+    <name>Ewattch</name>
+    <description>Plugin pour le superviseur ewattch</description>
+    <icon>fa fa-pie-chart</icon>
+    <licence>AGPL</licence>
+    <author>Loïc Gevrey</author>
+    <installation>Aucune</installation>
+    <require>1.192</require>
+    <category>energy</category>
+</info>
