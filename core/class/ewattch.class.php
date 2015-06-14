@@ -47,17 +47,39 @@ class ewattch extends eqLogic {
 				}
 				$index = $eqLogic->getCmd(null, 'index');
 				if (is_object(($index))) {
-					$index->event($resource[7]);
+					$value = $resource[7] + $index->getConfiguration('previous', 0);
+					$index->event($value);
+					if ($index->getConfiguration('lastPrevious') == '') {
+						$index->setConfiguration('previous', 0);
+						$index->setConfiguration('lastPrevious', date('Y-m-d'));
+						$index->save();
+					}
+					if ($index->getConfiguration('lastPrevious', date('Y-m-d')) != date('Y-m-d')) {
+						$index->setConfiguration('previous', $value);
+						$index->setConfiguration('lastPrevious', date('Y-m-d'));
+						$index->save();
+					}
 				}
+
 				$cost = $eqLogic->getCmd(null, 'cost');
 				if (is_object(($cost))) {
-					$cost->event($resource[6]);
+					$value = $resource[6] + $index->getConfiguration('previous', 0);
+					$cost->event($value);
+					if ($cost->getConfiguration('lastPrevious') == '') {
+						$cost->setConfiguration('previous', 0);
+						$cost->setConfiguration('lastPrevious', date('Y-m-d'));
+						$cost->save();
+					}
+					if ($cost->getConfiguration('lastPrevious', date('Y-m-d')) != date('Y-m-d')) {
+						$cost->setConfiguration('previous', $value);
+						$cost->setConfiguration('lastPrevious', date('Y-m-d'));
+						$cost->save();
+					}
 				}
 			}
 		}
 
 		if (isset($result[1][1])) {
-
 			foreach ($result[1][1] as $resource) {
 				$name = $resource[0];
 				$eqLogic = self::byLogicalId('water_' . $name, 'ewattch');
@@ -66,11 +88,33 @@ class ewattch extends eqLogic {
 				}
 				$index = $eqLogic->getCmd(null, 'index');
 				if (is_object(($index))) {
-					$index->event($resource[7]);
+					$value = $resource[7] + $index->getConfiguration('previous', 0);
+					$index->event($value);
+					if ($index->getConfiguration('lastPrevious') == '') {
+						$index->setConfiguration('previous', 0);
+						$index->setConfiguration('lastPrevious', date('Y-m-d'));
+						$index->save();
+					}
+					if ($index->getConfiguration('lastPrevious', date('Y-m-d')) != date('Y-m-d')) {
+						$index->setConfiguration('previous', $value);
+						$index->setConfiguration('lastPrevious', date('Y-m-d'));
+						$index->save();
+					}
 				}
 				$cost = $eqLogic->getCmd(null, 'cost');
 				if (is_object(($cost))) {
-					$cost->event($resource[6]);
+					$value = $resource[6] + $index->getConfiguration('previous', 0);
+					$cost->event($value);
+					if ($cost->getConfiguration('lastPrevious') == '') {
+						$cost->setConfiguration('previous', 0);
+						$cost->setConfiguration('lastPrevious', date('Y-m-d'));
+						$cost->save();
+					}
+					if ($cost->getConfiguration('lastPrevious', date('Y-m-d')) != date('Y-m-d')) {
+						$cost->setConfiguration('previous', $value);
+						$cost->setConfiguration('lastPrevious', date('Y-m-d'));
+						$cost->save();
+					}
 				}
 			}
 		}
@@ -100,13 +144,7 @@ class ewattch extends eqLogic {
 			if (!is_object(($index))) {
 				continue;
 			}
-			$previous = $index->getConfiguration('previous', 0);
 			$index->event($resource['index'] - $previous);
-			if ($index->getConfiguration('lastPrevious', date('Y-m-d')) != date('Y-m-d')) {
-				$index->setConfiguration('previous', $resource['index']);
-				$index->setConfiguration('lastPrevious', date('Y-m-d'));
-				$index->save();
-			}
 		}
 
 		foreach ($result['resource']['environment'] as $resource) {
