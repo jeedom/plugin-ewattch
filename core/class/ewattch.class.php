@@ -88,6 +88,27 @@ class ewattch extends eqLogic {
 			}
 		}
 
+		foreach ($result['resource']['heating'] as $resource) {
+			if (!isset($resource['index'])) {
+				continue;
+			}
+			$eqLogic = self::byLogicalId('heating_' . $resource['name'], 'ewattch');
+			if (!is_object(($eqLogic))) {
+				continue;
+			}
+			$index = $eqLogic->getCmd(null, 'index');
+			if (!is_object(($index))) {
+				continue;
+			}
+			$previous = $index->getConfiguration('previous', 0);
+			$index->event($resource['index'] - $previous);
+			if ($index->getConfiguration('lastPrevious', date('Y-m-d')) != date('Y-m-d')) {
+				$index->setConfiguration('previous', $resource['index']);
+				$index->setConfiguration('lastPrevious', date('Y-m-d'));
+				$index->save();
+			}
+		}
+
 		foreach ($result['resource']['environment'] as $resource) {
 			if (!isset($resource['value'])) {
 				continue;
@@ -215,20 +236,6 @@ class ewattch extends eqLogic {
 			$index->setEventOnly(1);
 			$index->setEqLogic_id($eqLogic->getId());
 			$index->save();
-
-			$cost = $eqLogic->getCmd(null, 'cost');
-			if (!is_object($cost)) {
-				$cost = new ewattchCmd();
-				$cost->setLogicalId('cost');
-				$cost->setIsVisible(1);
-				$cost->setName(__('Coût', __FILE__));
-			}
-			$cost->setUnite('€');
-			$cost->setType('info');
-			$cost->setSubType('numeric');
-			$cost->setEventOnly(1);
-			$cost->setEqLogic_id($eqLogic->getId());
-			$cost->save();
 		}
 		foreach ($result['resource']['environment'] as $resource) {
 			$eqLogic = self::byLogicalId('environment_' . $resource['name'], 'ewattch');
