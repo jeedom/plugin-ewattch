@@ -32,12 +32,14 @@ class ewattch extends eqLogic {
 				config::save('numberFailed', 0, 'ewattch');
 			}
 		} catch (Exception $e) {
-			if (config::byKey('numberFailed', 'ewattch', 0) > 150) {
+			if (config::byKey('numberFailed', 'ewattch', 0) > 3) {
 				log::add('ewattch', 'error', __('Erreur sur synchro ewattch ', __FILE__) . '(' . config::byKey('numberFailed', 'ewattch', 0) . ')' . $e->getMessage());
 			} else {
 				config::save('numberFailed', config::byKey('numberFailed', 'ewattch', 0) + 1, 'ewattch');
 			}
+			return;
 		}
+		print_r($result);
 		if (isset($result[1][0])) {
 			foreach ($result[1][0] as $resource) {
 				$name = $resource[0];
