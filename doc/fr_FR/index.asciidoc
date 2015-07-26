@@ -2,7 +2,7 @@
 == Ewwattch
 
 === Description
-Ce plugin permet d'établir de recuperer les informations du superviseur Ewattch
+Ce plugin permet d'établir et de récupérer les informations du superviseur Ewattch.
 
 '''
 include::configuration.asciidoc[]
