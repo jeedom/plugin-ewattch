@@ -26,7 +26,11 @@ foreach ($eqLogics as $eqLogic) {
     <div class="eqLogicThumbnailContainer">
 <?php
 foreach ($eqLogics as $eqLogic) {
-	echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >';
+	$opacity = '';
+	if ($eqLogic->getIsEnable() != 1) {
+		$opacity = 'opacity:0.3;';
+	}
+	echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;' . $opacity . '" >';
 	echo "<center>";
 	echo '<img src="plugins/ewattch/doc/images/ewattch_icon.png" height="105" width="95" />';
 	echo "</center>";
