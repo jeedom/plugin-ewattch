@@ -6,7 +6,3 @@ Ce plugin permet d'établir et de récupérer les informations du superviseur Ew
 
 '''
 include::configuration.asciidoc[]
-
-'''
-=== FAQ
-include::faq.asciidoc[]
