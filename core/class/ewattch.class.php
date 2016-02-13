@@ -207,7 +207,6 @@ class ewattch extends eqLogic {
 			$index->setUnite('wh');
 			$index->setType('info');
 			$index->setSubType('numeric');
-			$index->setEventOnly(1);
 			$index->setEqLogic_id($eqLogic->getId());
 			$index->save();
 
@@ -221,7 +220,6 @@ class ewattch extends eqLogic {
 			$cost->setUnite('€');
 			$cost->setType('info');
 			$cost->setSubType('numeric');
-			$cost->setEventOnly(1);
 			$cost->setEqLogic_id($eqLogic->getId());
 			$cost->save();
 		}
@@ -248,7 +246,6 @@ class ewattch extends eqLogic {
 			$index->setUnite('L');
 			$index->setType('info');
 			$index->setSubType('numeric');
-			$index->setEventOnly(1);
 			$index->setEqLogic_id($eqLogic->getId());
 			$index->save();
 
@@ -262,7 +259,6 @@ class ewattch extends eqLogic {
 			$cost->setUnite('€');
 			$cost->setType('info');
 			$cost->setSubType('numeric');
-			$cost->setEventOnly(1);
 			$cost->setEqLogic_id($eqLogic->getId());
 			$cost->save();
 		}
@@ -289,7 +285,6 @@ class ewattch extends eqLogic {
 			$index->setUnite('wh');
 			$index->setType('info');
 			$index->setSubType('numeric');
-			$index->setEventOnly(1);
 			$index->setEqLogic_id($eqLogic->getId());
 			$index->save();
 		}
@@ -315,7 +310,6 @@ class ewattch extends eqLogic {
 			$value->setUnite($resource['units']);
 			$value->setType('info');
 			$value->setSubType('numeric');
-			$value->setEventOnly(1);
 			$value->setEqLogic_id($eqLogic->getId());
 			$value->save();
 		}
