@@ -9,9 +9,9 @@ Vous retrouvez ici la configuration de base :
 * *IP du superviseur* : IP du superviseur sur le réseau
 * *Synchroniser* : Permet de synchroniser la liste des équipements sur le superviseur avec Jeedom
 
-=== Configuration des équipements
+=== Geräte Konfiguration
 
-La configuration des équipements Ewattch est accessible à partir du menu plugin : 
+Die Konfiguration von Ewattch-Geräten ist in dem Plugin-Menü verfügbar : 
 
 image::../images/ewattch2.PNG[]
 
@@ -28,7 +28,7 @@ Une fois que vous cliquez sur l'un d'eux, vous obtenez :
 image::../images/ewattch4.PNG[]
 
 
-Vous retrouvez ici toute la configuration de votre équipement : 
+Hier finden sie die ganze Konfiguration Ihrer Geräte : 
 
 * *Nom de l'équipement* : nom de votre équipement Ewattch,
 * *Objet parent* : indique l'objet parent auquel appartient l'équipement,
