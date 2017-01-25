@@ -1,5 +1,5 @@
 :icons:
-== Ewwattch
+== Ewattch
 
 === Beschreibung
 Ce plugin permet d'établir et de récupérer les informations du superviseur Ewattch.

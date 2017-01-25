@@ -11,7 +11,7 @@ Vous retrouvez ici la configuration de base :
 
 === Geräte Konfiguration
 
-Die Konfiguration von Ewattch-Geräten ist in dem Plugin-Menü verfügbar : 
+La configuration des équipements Ewattch est accessible à partir du menu Plugins : 
 
 image::../images/ewattch2.PNG[]
 
@@ -38,7 +38,7 @@ Hier finden sie die ganze Konfiguration Ihrer Geräte :
 * *ID* : ID logique de l'équipement dans le superviseur (il est recommandé de ne pas y toucher),
 * *IP* : IP du superviseur (à titre indicatif pour le moment).
 
-En-dessous, vous retrouvez la configuration de l'équipement : 
+En dessous, vous retrouvez la configuration de l'équipement : 
 
 * le nom affiché sur le dashboard,
 * le sous-type,
