@@ -1,0 +1,9 @@
+{
+	"id" : "ewattch",
+	"name" : "Ewattch",
+	"description" : "Plugin pour le superviseur ewattch",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "3.0",
+	"category" : "energy"
+}
