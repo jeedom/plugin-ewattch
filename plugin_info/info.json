@@ -6,6 +6,6 @@
 	"author" : "Loïc",
 	"require" : "3.0",
 	"category" : "energy",
-	"changelog" : "https://github.com/jeedom/plugin-energy/blob/stable/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-energy/blob/stable/doc/#language#/index.asciidoc"
+	"changelog" : "https://github.com/jeedom/plugin-ewattch/blob/stable/doc/#language#/changelog.asciidoc",
+	"documentation" : "https://github.com/jeedom/plugin-ewattch/blob/stable/doc/#language#/index.asciidoc"
 }
