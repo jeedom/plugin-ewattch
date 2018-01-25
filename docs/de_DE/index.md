@@ -45,7 +45,7 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Hier finden sie die ganze Konfiguration Ihrer Geräte:
 
 -   **Nom de l’équipement** : nom de votre équipement Ewattch,
 

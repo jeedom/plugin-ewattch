@@ -45,14 +45,14 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement** : nom de votre équipement Ewattch,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object** : means the parent object the equipment depend
+    equipment,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** Enable **: to make your equipment active,
 
 -   **Visible** : le rend visible sur le dashboard,
 
