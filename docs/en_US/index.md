@@ -52,7 +52,7 @@ You can find here the full configuration of your device :
 -   **Parent Object** : means the parent object the equipment depend
     equipment,
 
--   ** Enable **: to make your equipment active,
+-   **Enable**: to make your equipment active,
 
 -   **Visible** : le rend visible sur le dashboard,
 
