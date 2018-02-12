@@ -50,9 +50,9 @@ Aquí encontrará toda la configuración de su dispositivo:
 -   **Nom de l’équipement** : nom de votre équipement Ewattch,
 
 -   **Objeto padre** : especifica el objeto padre al que pertenece
-    l’équipement,
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
 -   **Visible** : le rend visible sur le dashboard,
 
