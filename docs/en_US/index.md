@@ -56,7 +56,7 @@ You can find here the full configuration of your device :
 
 -   **Visible** : le rend visible sur le dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   **Category**: categories of equipment (it may belong to
     plusieurs catégories),
 
 -   **ID** : ID logique de l’équipement dans le superviseur (il est
