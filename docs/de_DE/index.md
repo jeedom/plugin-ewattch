@@ -41,7 +41,7 @@ Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
 > permet de faire apparaître un menu d’accès rapide (vous pouvez, à
 > partir de votre profil, le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![ewattch4](../images/ewattch4.PNG)
 
