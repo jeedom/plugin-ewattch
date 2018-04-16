@@ -7,7 +7,7 @@ Description
 Ce plugin permet d’établir et de récupérer les informations du
 superviseur Ewattch.
 
-Configuration du plugin 
+Plugin Konfiguration
 -----------------------
 
 Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
@@ -22,7 +22,7 @@ Vous retrouvez ici la configuration de base :
 -   **Synchroniser** : Permet de synchroniser la liste des équipements
     sur le superviseur avec Jeedom
 
-Configuration des équipements 
+Geräte Konfiguration
 -----------------------------
 
 La configuration des équipements Ewattch est accessible à partir du menu
