@@ -1,7 +1,7 @@
 Ewattch 
 =======
 
-Description 
+Beschreibung 
 -----------
 
 Ce plugin permet d’établir et de récupérer les informations du
