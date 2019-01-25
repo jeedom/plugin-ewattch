@@ -1,13 +1,13 @@
 Ewattch 
 =======
 
-Description 
+Description
 -----------
 
 Ce plugin permet d’établir et de récupérer les informations du
 superviseur Ewattch.
 
-Configuration du plugin 
+Plugin configuration
 -----------------------
 
 Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
@@ -22,7 +22,7 @@ Vous retrouvez ici la configuration de base :
 -   **Synchroniser** : Permet de synchroniser la liste des équipements
     sur le superviseur avec Jeedom
 
-Configuration des équipements 
+Equipment configuration
 -----------------------------
 
 La configuration des équipements Ewattch est accessible à partir du menu
@@ -54,7 +54,7 @@ You can find here the full configuration of your device :
 
 -   **Enable**: to make your equipment active,
 
--   **Visible** : le rend visible sur le dashboard,
+-   **Visible**: makes it visible on the dashboard,
 
 -   **Category**: categories of equipment (it may belong to
     plusieurs catégories),
@@ -66,7 +66,7 @@ You can find here the full configuration of your device :
 
 En dessous, vous retrouvez la configuration de l’équipement :
 
--   le nom affiché sur le dashboard,
+-   the name displayed on the dashboard,
 
 -   le sous-type,
 
