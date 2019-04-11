@@ -57,7 +57,7 @@ Aquí encontrará toda la configuración de su dispositivo:
 -   **Visible** : le rend visible sur le dashboard,
 
 -   ** ** Categoría: categorías de equipos (que pueden pertenecer a
-    plusieurs catégories),
+    varias categorías),
 
 -   **ID** : ID logique de l’équipement dans le superviseur (il est
     recommandé de ne pas y toucher),
