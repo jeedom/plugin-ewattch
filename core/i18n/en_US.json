@@ -1,0 +1,50 @@
+{
+    "plugin_info\/configuration.php": {
+        "IP du superviseur": "Supervisor&#39;s IP",
+        "Synchroniser": "Synchronize",
+        "Synchroniser mes équipements": "Synchronize my equipment",
+        "Synchronisation réussie": "Synchronization successful"
+    },
+    "desktop\/js\/ewattch.js": {
+        "Historiser": "historicize",
+        "Afficher": "Pin up",
+        "Tester": "Test"
+    },
+    "desktop\/php\/ewattch.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Rechercher": "Search",
+        "Mes équipements de Ewattch": "My Ewattch equipment",
+        "Sauvegarder": "Save",
+        "Supprimer": "Remove",
+        "Configuration avancée": "Advanced configuration",
+        "Dupliquer": "Duplicate",
+        "Equipement": "Equipment",
+        "Commandes": "Orders",
+        "Nom de l'équipement": "Name of equipment",
+        "Nom": "Last name",
+        "Objet parent": "Parent object",
+        "Aucun": "No",
+        "Activer": "Activate",
+        "Visible": "Visible",
+        "Ajouter une commande": "Add an order",
+        "Sous-type": "Subtype",
+        "ID": "ID",
+        "Paramètres": "Settings",
+        "Options": "options",
+        "Action": "Action"
+    },
+    "core\/ajax\/ewattch.ajax.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Aucune methode correspondante à : ": "No method corresponding to:"
+    },
+    "core\/class\/ewattch.class.php": {
+        "Tâche de synchronisation": "Synchronization task",
+        "OK": "okay",
+        "NOK": "NOK",
+        "Allez sur la page du moteur des tâches et vérifiez lancer la tache ewattch::pull": "Go to the task engine page and check launch the task ewattch :: pull",
+        "Erreur sur synchro ewattch ": "Ewattch sync error",
+        "Index": "Index",
+        "Coût": "Cost",
+        "Valeur": "Value"
+    }
+}
