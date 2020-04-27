@@ -1,92 +1,92 @@
-Ewattch 
+ 
 =======
 
-Description
+Description 
 -----------
 
-Ce plugin permet d’établir et de récupérer les informations du
-superviseur Ewattch.
 
-Plugin configuration
+.
+
+Plugin configuration 
 -----------------------
 
-Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
-accès à la configuration de base du plugin :
+
+ :
 
 ![ewattch1](../images/ewattch1.PNG)
 
-Vous retrouvez ici la configuration de base :
+ :
 
--   **IP du superviseur** : IP du superviseur sur le réseau
+-   **** : 
 
--   **Synchroniser** : Permet de synchroniser la liste des équipements
-    sur le superviseur avec Jeedom
+-   **Synchronize** : 
+    
 
-Equipment configuration
+Equipment configuration 
 -----------------------------
 
-La configuration des équipements Ewattch est accessible à partir du menu
+
 Plugins :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
-équipements) :
+
+ :
 
 ![ewattch3](../images/ewattch3.PNG)
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> As in many places on Jeedom, put the mouse on the far left
+> brings up a quick access menu (you can, at
+> from your profile, always leave it visible).
 
-Once you click on one of them, you get:
+Once you click on one of them, you get :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement** : nom de votre équipement Ewattch,
+-   **Name of equipment** : ,
 
--   **Parent Object** : means the parent object the equipment depend
+-   **Parent object** : indicates the parent object to which belongs
     equipment,
 
--   **Enable**: to make your equipment active,
+-   **Activate** : makes your equipment active,
 
--   **Visible**: makes it visible on the dashboard,
+-   **Visible** : makes it visible on the dashboard,
 
--   **Category**: categories of equipment (it may belong to
-    plusieurs catégories),
+-   **Category** : equipment categories (it may belong to
+    multiple categories),
 
--   **ID** : ID logique de l’équipement dans le superviseur (il est
-    recommandé de ne pas y toucher),
+-   **ID** : 
+    ,
 
--   **IP** : IP du superviseur (à titre indicatif pour le moment).
+-   **IP** : .
 
-En dessous, vous retrouvez la configuration de l’équipement :
+ :
 
 -   the name displayed on the dashboard,
 
--   le sous-type,
+-   ,
 
--   ID logique de la commande dans le superviseur (il est recommandé de
-    ne pas y toucher),
+-   
+    ,
 
--   historiser : permet d’historiser la donnée,
+-   Historize : allows to historize the data,
 
--   afficher : permet d’afficher la donnée sur le dashboard,
+-   Show : allows to display the data on the dashboard,
 
--   unité : unité de la donnée (peut être vide),
+-   Unit : data unit (can be empty),
 
--   min/max : bornes de la donnée (peuvent être vides),
+-   min / max : data bounds (may be empty),
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    the advanced configuration of the command (historization method,
-    widget…​),
+-   advanced configuration (small notched wheels) : Displays
+    advanced configuration of the command (historization method,
+    ,
 
--   Tester : permet de tester la commande,
+-   Test : Used to test the command,
 
--   supprimer (signe -) : permet de supprimer la commande.
+-   delete (sign -) : allows to delete the command.
 
 

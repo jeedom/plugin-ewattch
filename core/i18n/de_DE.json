@@ -1,50 +1,50 @@
 {
-    "plugin_info\/configuration.php": {
-        "IP du superviseur": "IP des Supervisors",
-        "Synchroniser": "synchronize",
-        "Synchroniser mes équipements": "Synchronisiere meine Ausrüstung",
-        "Synchronisation réussie": "Synchronisation erfolgreich"
+    "plugins\/ewattch\/plugin_info\/configuration.php": {
+        "IP du superviseur": "",
+        "Synchroniser": "Synchronize",
+        "Synchroniser mes équipements": "",
+        "Synchronisation réussie": ""
     },
-    "desktop\/js\/ewattch.js": {
-        "Historiser": "historisieren",
-        "Afficher": "Anzeige",
-        "Tester": "Test"
-    },
-    "desktop\/php\/ewattch.php": {
+    "plugins\/ewattch\/desktop\/php\/ewattch.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-        "Rechercher": "Suche",
-        "Mes équipements de Ewattch": "Meine Ewattch-Ausrüstung",
-        "Sauvegarder": "speichern",
-        "Supprimer": "Entfernen",
+        "Rechercher": "Suchen nach",
+        "Mes équipements de Ewattch": "",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
         "Configuration avancée": "Erweiterte Konfiguration",
         "Dupliquer": "Duplikat",
-        "Equipement": "Ausrüstung",
+        "Equipement": "Gerät",
         "Commandes": "Befehle",
         "Nom de l'équipement": "Name der Ausrüstung",
         "Nom": "Name",
         "Objet parent": "Übergeordnetes Objekt",
-        "Aucun": "keine",
-        "Activer": "activate",
-        "Visible": "sichtbar",
-        "Ajouter une commande": "Bestellung hinzufügen",
-        "Sous-type": "Unterart",
+        "Aucun": "Ohne",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar",
+        "Ajouter une commande": "Kommando hinzufügen",
+        "Sous-type": "Untertyp",
         "ID": "Identifikation",
         "Paramètres": "Einstellungen",
         "Options": "Optionen",
         "Action": "Aktion"
     },
-    "core\/ajax\/ewattch.ajax.php": {
+    "plugins\/ewattch\/desktop\/js\/ewattch.js": {
+        "Historiser": "Chronik",
+        "Afficher": "Anzeige",
+        "Tester": "Test"
+    },
+    "plugins\/ewattch\/core\/ajax\/ewattch.ajax.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
         "Aucune methode correspondante à : ": "Keine Methode entsprechend:"
     },
-    "core\/class\/ewattch.class.php": {
-        "Tâche de synchronisation": "Synchronization task",
-        "OK": "okay",
-        "NOK": "NOK",
-        "Allez sur la page du moteur des tâches et vérifiez lancer la tache ewattch::pull": "Go to the task engine page and check launch the task ewattch :: pull",
-        "Erreur sur synchro ewattch ": "Ewattch sync error",
-        "Index": "índice",
-        "Coût": "Cost",
-        "Valeur": "Value"
+    "plugins\/ewattch\/core\/class\/ewattch.class.php": {
+        "Tâche de synchronisation": "",
+        "OK": "OK",
+        "NOK": "",
+        "Allez sur la page du moteur des tâches et vérifiez lancer la tache ewattch::pull": "",
+        "Erreur sur synchro ewattch ": "",
+        "Index": "",
+        "Coût": "",
+        "Valeur": "Wert"
     }
 }

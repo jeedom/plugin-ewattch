@@ -1,50 +1,50 @@
 {
-    "plugin_info\/configuration.php": {
-        "IP du superviseur": "IP du superviseur",
-        "Synchroniser": "Synchroniser",
-        "Synchroniser mes équipements": "Synchroniser mes équipements",
-        "Synchronisation réussie": "Synchronisation réussie"
+    "plugins\/ewattch\/plugin_info\/configuration.php": {
+        "IP du superviseur": "",
+        "Synchroniser": "Sincronizzare",
+        "Synchroniser mes équipements": "",
+        "Synchronisation réussie": ""
     },
-    "desktop\/js\/ewattch.js": {
-        "Historiser": "Historiser",
-        "Afficher": "Afficher",
-        "Tester": "Tester"
+    "plugins\/ewattch\/desktop\/php\/ewattch.php": {
+        "401 - Accès non autorisé": "401 - Accesso non autorizzato",
+        "Rechercher": "Ricercare",
+        "Mes équipements de Ewattch": "",
+        "Sauvegarder": "Salva",
+        "Supprimer": "Rimuovere",
+        "Configuration avancée": "Configurazione avanzata",
+        "Dupliquer": "Duplicato",
+        "Equipement": "Dispositivo",
+        "Commandes": "Comandi",
+        "Nom de l'équipement": "Nome dispositivo",
+        "Nom": "Nome",
+        "Objet parent": "Oggetto padre",
+        "Aucun": "Nessuno",
+        "Activer": "Attivare",
+        "Visible": "Visibile",
+        "Ajouter une commande": "Aggiungi un comando",
+        "Sous-type": "Sotto-tipo",
+        "ID": "",
+        "Paramètres": "Impostazioni",
+        "Options": "Opzioni",
+        "Action": "Azione"
     },
-    "desktop\/php\/ewattch.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Rechercher": "Rechercher",
-        "Mes équipements de Ewattch": "Mes équipements de Ewattch",
-        "Sauvegarder": "Sauvegarder",
-        "Supprimer": "Supprimer",
-        "Configuration avancée": "Configuration avancée",
-        "Dupliquer": "Dupliquer",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
-        "Nom de l'équipement": "Nom de l'équipement",
-        "Nom": "Nom",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Activer": "Activer",
-        "Visible": "Visible",
-        "Ajouter une commande": "Ajouter une commande",
-        "Sous-type": "Sous-type",
-        "ID": "ID",
-        "Paramètres": "Paramètres",
-        "Options": "Options",
-        "Action": "Action"
+    "plugins\/ewattch\/desktop\/js\/ewattch.js": {
+        "Historiser": "Storicizza",
+        "Afficher": "Mostra",
+        "Tester": "Prova"
     },
-    "core\/ajax\/ewattch.ajax.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+    "plugins\/ewattch\/core\/ajax\/ewattch.ajax.php": {
+        "401 - Accès non autorisé": "401 - Accesso non autorizzato",
+        "Aucune methode correspondante à : ": "Nessun metodo corrispondente a:"
     },
-    "core\/class\/ewattch.class.php": {
-        "Tâche de synchronisation": "Synchronization task",
-        "OK": "okay",
-        "NOK": "NOK",
-        "Allez sur la page du moteur des tâches et vérifiez lancer la tache ewattch::pull": "Go to the task engine page and check launch the task ewattch :: pull",
-        "Erreur sur synchro ewattch ": "Ewattch sync error",
-        "Index": "índice",
-        "Coût": "Cost",
-        "Valeur": "Value"
+    "plugins\/ewattch\/core\/class\/ewattch.class.php": {
+        "Tâche de synchronisation": "",
+        "OK": "Bene",
+        "NOK": "",
+        "Allez sur la page du moteur des tâches et vérifiez lancer la tache ewattch::pull": "",
+        "Erreur sur synchro ewattch ": "",
+        "Index": "",
+        "Coût": "",
+        "Valeur": "Valore"
     }
 }

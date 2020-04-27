@@ -1,92 +1,92 @@
-Ewattch 
+ 
 =======
 
 Beschreibung 
 -----------
 
-Ce plugin permet d’établir et de récupérer les informations du
-superviseur Ewattch.
 
-Plugin Konfiguration
+.
+
+Plugin Konfiguration 
 -----------------------
 
-Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
-accès à la configuration de base du plugin :
+
+ :
 
 ![ewattch1](../images/ewattch1.PNG)
 
-Vous retrouvez ici la configuration de base :
+ :
 
--   **IP du superviseur** : IP du superviseur sur le réseau
+-   **** : 
 
--   **Synchroniser** : Permet de synchroniser la liste des équipements
-    sur le superviseur avec Jeedom
+-   **Synchronize** : 
+    
 
-Geräte Konfiguration
+Gerätekonfiguration 
 -----------------------------
 
-La configuration des équipements Ewattch est accessible à partir du menu
+
 Plugins :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
-équipements) :
+
+ :
 
 ![ewattch3](../images/ewattch3.PNG)
 
-> **Tip**
+> **Spitze**
 >
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
+> ruft ein Schnellzugriffsmenü auf (Sie können unter
+> Lassen Sie es in Ihrem Profil immer sichtbar.).
 
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement** : nom de votre équipement Ewattch,
+-   **Name der Ausrüstung** : ,
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+-   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung,
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 
--   **Visible** : le rend visible sur le dashboard,
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar,
 
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories),
+-   **Kategorie** : Gerätekategorien (es kann gehören
+    mehrere Kategorien),
 
--   **ID** : ID logique de l’équipement dans le superviseur (il est
-    recommandé de ne pas y toucher),
+-   **Identifikation** : 
+    ,
 
--   **IP** : IP du superviseur (à titre indicatif pour le moment).
+-   **IP** : .
 
-En dessous, vous retrouvez la configuration de l’équipement :
+ :
 
--   le nom affiché sur le dashboard,
+-   Der im Dashboard angezeigte Name,
 
--   le sous-type,
+-   ,
 
--   ID logique de la commande dans le superviseur (il est recommandé de
-    ne pas y toucher),
+-   
+    ,
 
--   historiser : permet d’historiser la donnée,
+-   Chronik : ermöglicht das Historisieren der Daten,
 
--   afficher : permet d’afficher la donnée sur le dashboard,
+-   Anzeige : ermöglicht die Anzeige der Daten im Dashboard,
 
--   unité : unité de la donnée (peut être vide),
+-   Unit : Dateneinheit (kann leer sein),
 
--   min/max : bornes de la donnée (peuvent être vides),
+-   min / max : Datengrenzen (können leer sein),
 
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Die erweiterte Steuerung der Konfiguration (Methode der Protokollierung,
-    widget…​),
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
+    Erweiterte Konfiguration des Befehls (Historisierungsmethode,
+    ,
 
--   Tester : permet de tester la commande,
+-   Test : Wird zum Testen des Befehls verwendet,
 
--   supprimer (signe -) : permet de supprimer la commande.
+-   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls.
 
 
