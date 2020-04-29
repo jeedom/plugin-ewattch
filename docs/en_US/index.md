@@ -1,37 +1,37 @@
- 
+Ewattch 
 =======
 
 Description 
 -----------
 
-
-.
+This plugin allows you to establish and retrieve information from the
+Ewattch supervisor.
 
 Plugin configuration 
 -----------------------
 
-
- :
+After downloading the plugin you need to activate it, then you have
+access to the basic configuration of the plugin :
 
 ![ewattch1](../images/ewattch1.PNG)
 
- :
+Here you find the basic configuration :
 
--   **** : 
+-   **Supervisor's IP** : Supervisor's IP on the network
 
--   **Synchronize** : 
-    
+-   **Synchroniser** : Synchronize the list of equipment
+    on the supervisor with Jeedom
 
 Equipment configuration 
 -----------------------------
 
-
+The configuration of Ewattch equipment is accessible from the menu
 Plugins :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-
- :
+This is what the Ewattch plugin page looks like (here with already some
+equipment) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
@@ -47,31 +47,31 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name of equipment** : ,
+-   **Name of equipment** : name of your Ewattch equipment,
 
 -   **Parent object** : indicates the parent object to which belongs
     equipment,
 
--   **Activate** : makes your equipment active,
+-   **Activer** : makes your equipment active,
 
 -   **Visible** : makes it visible on the dashboard,
 
 -   **Category** : equipment categories (it may belong to
     multiple categories),
 
--   **ID** : 
-    ,
+-   **ID** : Logical ID of the equipment in the supervisor (it is
+    recommended not to touch it),
 
--   **IP** : .
+-   **IP** : Supervisor's IP (for information only).
 
- :
+Below, you will find the configuration of the equipment :
 
 -   the name displayed on the dashboard,
 
--   ,
+-   the subtype,
 
--   
-    ,
+-   Logical ID of the command in the supervisor (it is recommended to
+    do not touch it),
 
 -   Historize : allows to historize the data,
 
@@ -83,7 +83,7 @@ Here you find all the configuration of your equipment :
 
 -   advanced configuration (small notched wheels) : Displays
     advanced configuration of the command (historization method,
-    ,
+    widget…),
 
 -   Test : Used to test the command,
 
