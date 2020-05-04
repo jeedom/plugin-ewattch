@@ -83,7 +83,7 @@ A continuación, encontrará la configuración del equipo. :
 
 -   configuración avanzada (ruedas con muescas pequeñas) : Muestra
     configuración avanzada del comando (método de historización,
-    widget ...),
+    widget…​),
 
 -   Probar : Se usa para probar el comando,
 

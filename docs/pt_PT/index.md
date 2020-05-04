@@ -83,7 +83,7 @@ Abaixo, você encontrará a configuração do equipamento :
 
 -   configuração avançada (pequenas rodas dentadas) : permite exibir
     configuração avançada do comando (método de historização,
-    widget…),
+    widget…​),
 
 -   Teste : permite testar o comando,
 

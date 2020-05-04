@@ -83,7 +83,7 @@ Below, you will find the configuration of the equipment :
 
 -   advanced configuration (small notched wheels) : Displays
     advanced configuration of the command (historization method,
-    widget…),
+    widget…​),
 
 -   Test : Used to test the command,
 

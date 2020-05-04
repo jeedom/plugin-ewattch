@@ -83,7 +83,7 @@ Nachfolgend finden Sie die Konfiguration der Geräte :
 
 -   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
     Erweiterte Konfiguration des Befehls (Historisierungsmethode,
-    Widget…),
+    widget…​),
 
 -   Test : Wird zum Testen des Befehls verwendet,
 
