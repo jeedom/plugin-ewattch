@@ -17,9 +17,9 @@ acesso à configuração básica do plugin :
 
 Aqui você encontra a configuração básica :
 
--   **IP do supervisor** : IP do supervisor na rede
+-   **IP du superviseur** : IP do supervisor na rede
 
--   **Synchroniser** : Sincronizar a lista de equipamentos
+-   **Sincronizar** : Sincronizar a lista de equipamentos
     no supervisor com Jeedom
 
 Configuração do equipamento 
@@ -35,7 +35,7 @@ equipamento) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
-> **Tip**
+> **Dica**
 >
 > Como em muitos lugares em Jeedom, coloque o mouse na extremidade esquerda
 > abre um menu de acesso rápido (você pode, em
@@ -52,9 +52,9 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Objeto pai** : indica o objeto pai ao qual pertence
     o equipamento,
 
--   **Activer** : torna seu equipamento ativo,
+-   **Ativar** : torna seu equipamento ativo,
 
--   **Visible** : torna visível no painel,
+-   **Visivél** : torna visível no painel,
 
 -   **Categoria** : categorias de equipamentos (pode pertencer a
     várias categorias),

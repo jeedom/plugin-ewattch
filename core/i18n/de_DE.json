@@ -2,7 +2,7 @@
     "plugins\/ewattch\/plugin_info\/configuration.php": {
         "IP du superviseur": "IP des Supervisors",
         "Synchroniser": "Synchronize",
-        "Synchroniser mes équipements": "Meine Geräte synchronisieren ",
+        "Synchroniser mes équipements": "Meine Geräte synchronisieren",
         "Synchronisation réussie": "Erfolgreiche Synchronisation"
     },
     "plugins\/ewattch\/desktop\/php\/ewattch.php": {

@@ -17,9 +17,9 @@ access to the basic configuration of the plugin :
 
 Here you find the basic configuration :
 
--   **Supervisor's IP** : Supervisor's IP on the network
+-   **IP du superviseur** : Supervisor's IP on the network
 
--   **Synchroniser** : Synchronize the list of equipment
+-   **Synchronize** : Synchronize the list of equipment
     on the supervisor with Jeedom
 
 Equipment configuration 
@@ -52,7 +52,7 @@ Here you find all the configuration of your equipment :
 -   **Parent object** : indicates the parent object to which belongs
     equipment,
 
--   **Activer** : makes your equipment active,
+-   **Activate** : makes your equipment active,
 
 -   **Visible** : makes it visible on the dashboard,
 

@@ -17,9 +17,9 @@ Zugriff auf die Grundkonfiguration des Plugins :
 
 Hier finden Sie die Grundkonfiguration :
 
--   **IP des Supervisors** : IP des Supervisors im Netzwerk
+-   **IP du superviseur** : IP des Supervisors im Netzwerk
 
--   **Synchroniser** : Synchronisieren Sie die Geräteliste
+-   **Synchronize** : Synchronisieren Sie die Geräteliste
     auf dem Vorgesetzten mit Jeedom
 
 Gerätekonfiguration 
@@ -35,7 +35,7 @@ Ausrüstung) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
-> **Tip**
+> **Spitze**
 >
 > Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
 > ruft ein Schnellzugriffsmenü auf (Sie können unter
@@ -52,14 +52,14 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung,
 
--   **Activer** : macht Ihre Ausrüstung aktiv,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 
--   **Visible** : macht es auf dem Dashboard sichtbar,
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar,
 
 -   **Kategorie** : Gerätekategorien (es kann gehören
     mehrere Kategorien),
 
--   **ID** : Logische Identifikation des Geräts im Supervisor (es ist
+-   **Identifikation** : Logische ID des Geräts im Supervisor (es ist
     empfohlen, es nicht zu berühren),
 
 -   **IP** : IP des Supervisors (nur zur Information).
@@ -70,7 +70,7 @@ Nachfolgend finden Sie die Konfiguration der Geräte :
 
 -   der Subtyp,
 
--   Logische Identifikation des Befehls im Supervisor (empfohlen wird
+-   Logische ID des Befehls im Supervisor (empfohlen wird
     nicht anfassen),
 
 -   Chronik : ermöglicht das Historisieren der Daten,

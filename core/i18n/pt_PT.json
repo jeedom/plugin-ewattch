@@ -35,7 +35,7 @@
     },
     "plugins\/ewattch\/core\/ajax\/ewattch.ajax.php": {
         "401 - Accès non autorisé": "401 - Acesso não autorizado",
-        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à :"
     },
     "plugins\/ewattch\/core\/class\/ewattch.class.php": {
         "Tâche de synchronisation": "Tarefa de sincronização",

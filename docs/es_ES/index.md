@@ -17,9 +17,9 @@ acceso a la configuración básica del complemento :
 
 Aquí encontrarás la configuración básica :
 
--   **IP del supervisor** : IP del supervisor en la red
+-   **IP du superviseur** : IP del supervisor en la red
 
--   **Synchroniser** : Sincronice la lista de equipos.
+-   **Sincronizar** : Sincronice la lista de equipos
     en el supervisor con Jeedom
 
 Configuración del equipo 
@@ -35,7 +35,7 @@ equipo) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
-> **Tip**
+> **Punta**
 >
 > Como en muchos lugares de Jeedom, coloca el mouse en el extremo izquierdo
 > muestra un menú de acceso rápido (puede, en
@@ -52,25 +52,25 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Objeto padre** : indica el objeto padre al que pertenece
     equipo,
 
--   **Activer** : activa su equipo,
+-   **Activar** : activa su equipo,
 
 -   **Visible** : lo hace visible en el tablero,
 
 -   **Categoría** : categorías de equipos (puede pertenecer a
     categorías múltiples),
 
--   **ID** : Identificación lógica del equipo en el supervisor (es
+-   **Identificación** : Identificación lógica del equipo en el supervisor (es
     recomienda no tocarlo),
 
 -   **IP** : IP del supervisor (solo para información).
 
-A continuación, encontrará la configuración del equipo. :
+A continuación, encontrará la configuración del equipo :
 
 -   el nombre que se muestra en el tablero,
 
 -   el subtipo,
 
--   Identificación lógica del comando en el supervisor (se recomienda
+-   ID lógica del comando en el supervisor (se recomienda
     no lo toques),
 
 -   Guardar historial : permite historizar los datos,
