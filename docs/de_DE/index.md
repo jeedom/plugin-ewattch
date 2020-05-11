@@ -1,45 +1,27 @@
-Ewattch 
-=======
+# Ewattch Plugin 
 
-Beschreibung 
------------
+Mit diesem Plugin können Sie Informationen vom Ewattch-Supervisor einrichten und abrufen.
 
-Mit diesem Plugin können Sie Informationen aus dem Internet einrichten und abrufen
-Ewattch Supervisor.
+# Plugin Konfiguration 
 
-Plugin Konfiguration 
------------------------
-
-Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es aktivieren, dann haben Sie
-Zugriff auf die Grundkonfiguration des Plugins :
+Nach dem Herunterladen des Plugins, das Sie aktivieren müssen, haben Sie Zugriff auf die Grundkonfiguration des Plugins :
 
 ![ewattch1](../images/ewattch1.PNG)
 
 Hier finden Sie die Grundkonfiguration :
 
 -   **IP du superviseur** : IP des Supervisors im Netzwerk
+-   **Synchronize** : Synchronisieren Sie die Liste der Geräte auf dem Supervisor mit Jeedom
 
--   **Synchronize** : Synchronisieren Sie die Geräteliste
-    auf dem Vorgesetzten mit Jeedom
+# Gerätekonfiguration 
 
-Gerätekonfiguration 
------------------------------
-
-Die Konfiguration der Ewattch-Ausrüstung ist über das Menü zugänglich
-Plugins :
+Auf die Konfiguration der Ewattch-Geräte kann über das Plugins-Menü zugegriffen werden :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-So sieht die Ewattch-Plugin-Seite aus (hier mit bereits einigen
-Ausrüstung) :
+So sieht die Ewattch-Plugin-Seite aus (hier mit einigen Geräten bereits) :
 
 ![ewattch3](../images/ewattch3.PNG)
-
-> **Spitze**
->
-> Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
-> ruft ein Schnellzugriffsmenü auf (Sie können unter
-> Lassen Sie es in Ihrem Profil immer sichtbar.).
 
 Sobald Sie auf eine davon klicken, erhalten Sie :
 
@@ -48,45 +30,24 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 -   **Name der Ausrüstung** : Name Ihrer Ewattch-Ausrüstung,
-
--   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
-    Ausrüstung,
-
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
-
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar,
-
--   **Kategorie** : Gerätekategorien (es kann gehören
-    mehrere Kategorien),
-
--   **Identifikation** : Logische ID des Geräts im Supervisor (es ist
-    empfohlen, es nicht zu berühren),
-
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
+-   **Identifikation** : Logische ID des Geräts im Supervisor (es wird empfohlen, es nicht zu berühren),
 -   **IP** : IP des Supervisors (nur zur Information).
 
 Nachfolgend finden Sie die Konfiguration der Geräte :
 
 -   Der im Dashboard angezeigte Name,
-
 -   der Subtyp,
-
--   Logische ID des Befehls im Supervisor (empfohlen wird
-    nicht anfassen),
-
+-   Logische ID der Bestellung im Supervisor (es wird empfohlen, sie nicht zu berühren),
 -   Chronik : ermöglicht das Historisieren der Daten,
-
 -   Anzeige : ermöglicht die Anzeige der Daten im Dashboard,
-
 -   Unit : Dateneinheit (kann leer sein),
-
 -   min / max : Datengrenzen (können leer sein),
-
--   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
-    Erweiterte Konfiguration des Befehls (Historisierungsmethode,
-    widget…​),
-
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.),
 -   Test : Wird zum Testen des Befehls verwendet,
-
 -   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls.
 
 
