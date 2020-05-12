@@ -1,0 +1,50 @@
+{
+    "plugins\/ewattch\/plugin_info\/configuration.php": {
+        "IP du superviseur": "",
+        "Synchroniser": "Senkeronize et",
+        "Synchroniser mes équipements": "Cihazlarımı senkronize et",
+        "Synchronisation réussie": "Sekronizasyon başarılı"
+    },
+    "plugins\/ewattch\/desktop\/php\/ewattch.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Rechercher": "Arayın",
+        "Mes équipements de Ewattch": "",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Dupliquer": "Kopyala",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
+        "Nom de l'équipement": "Ekipman ismi",
+        "Nom": "İsim",
+        "Objet parent": "Üst nesne",
+        "Aucun": "Hiçbir",
+        "Activer": "Etkinleştir",
+        "Visible": "Görülebilir",
+        "Ajouter une commande": "Komuta ekle",
+        "Sous-type": "Alt türü(tipi)",
+        "ID": "Kimlik",
+        "Paramètres": "Ayarlar ( Séçenekler )",
+        "Options": "Opsiyonlar",
+        "Action": "Eylem"
+    },
+    "plugins\/ewattch\/desktop\/js\/ewattch.js": {
+        "Historiser": "Tarihe göre sırala",
+        "Afficher": "Göster",
+        "Tester": "Test et"
+    },
+    "plugins\/ewattch\/core\/ajax\/ewattch.ajax.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Aucune methode correspondante à : ": "Aşağıdakilere karşılık gelen bir yöntem yok:"
+    },
+    "plugins\/ewattch\/core\/class\/ewattch.class.php": {
+        "Tâche de synchronisation": "",
+        "OK": "Tamam",
+        "NOK": "",
+        "Allez sur la page du moteur des tâches et vérifiez lancer la tache ewattch::pull": "",
+        "Erreur sur synchro ewattch ": "",
+        "Index": "",
+        "Coût": "",
+        "Valeur": "Değer"
+    }
+}
