@@ -10,7 +10,7 @@ Depois de baixar o plug-in, você precisa ativá-lo, então você tem acesso à 
 
 Aqui você encontra a configuração básica :
 
--   **IP du superviseur** : IP do supervisor na rede
+-   **IP do supervisor** : IP do supervisor na rede
 -   **Sincronizar** : Sincronize a lista de equipamentos no supervisor com Jeedom
 
 # Configuração do equipamento 
@@ -19,7 +19,7 @@ A configuração do equipamento Ewattch pode ser acessada no menu Plugins :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-É assim que a página do plugin Ewattch se parece (aqui já com alguns equipamentos) :
+É assim que a página do plugin Ewattch se parece (aqui com alguns equipamentos) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
@@ -35,19 +35,19 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Visivél** : torna visível no painel,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **ID** : ID lógico do equipamento no supervisor (é recomendável não tocá-lo),
--   **IP** : IP do supervisor (apenas para informação).
+-   **IP** : Supervisor IP (indicativo de momento).
 
 Abaixo, você encontrará a configuração do equipamento :
 
 -   o nome exibido no painel,
 -   o subtipo,
--   ID lógico do pedido no supervisor (é recomendável não tocá-lo),
+-   ID lógico do comando no supervisor (é recomendável não tocá-lo),
 -   Historicizar : permite historiar os dados,
 -   Display : permite exibir os dados no painel,
 -   Unidade : unidade de dados (pode estar vazia),
 -   min / max : limites de dados (podem estar vazios),
--   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.),
+-   Configuração avançada (pequenas rodas dentadas) : usado para exibir a configuração avançada do comando (método de log, widget, etc),
 -   Teste : permite testar o comando,
--   excluir (assinar -) : permite excluir o comando.
+-   Excluir (assinar -) : permite excluir o comando.
 
 

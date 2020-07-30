@@ -10,7 +10,7 @@ After downloading the plugin you need to activate it, you then have access to th
 
 Here you find the basic configuration :
 
--   **IP du superviseur** : Supervisor's IP on the network
+-   **Supervisor's IP** : Supervisor's IP on the network
 -   **Synchronize** : Synchronize the list of equipment on the supervisor with Jeedom
 
 # Equipment configuration 
@@ -19,7 +19,7 @@ The configuration of Ewattch equipment is accessible from the Plugins menu :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-This is what the Ewattch plugin page looks like (here with some equipment already) :
+This is what the Ewattch plugin page looks like (here with already some equipment) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
@@ -35,19 +35,19 @@ Here you find all the configuration of your equipment :
 -   **Visible** : makes it visible on the dashboard,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **ID** : Logical ID of the equipment in the supervisor (it is recommended not to touch it),
--   **IP** : Supervisor's IP (for information only).
+-   **IP** : Supervisor IP (indicative for the moment).
 
 Below, you will find the configuration of the equipment :
 
 -   the name displayed on the dashboard,
 -   the subtype,
--   Logical ID of the order in the supervisor (it is recommended not to touch it),
+-   Logical ID of the command in the supervisor (it is recommended not to touch it),
 -   Historize : allows to historize the data,
 -   Show : allows to display the data on the dashboard,
 -   Unit : data unit (can be empty),
 -   min / max : data bounds (may be empty),
--   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.),
+-   Advanced configuration (small notched wheels) : used to display the advanced configuration of the command (logging method, widget, etc),
 -   Test : Used to test the command,
--   delete (sign -) : allows to delete the command.
+-   Delete (sign -) : allows to delete the command.
 
 

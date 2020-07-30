@@ -46,5 +46,8 @@
         "Index": "Index",
         "Coût": "Cost",
         "Valeur": "Value"
+    },
+    "info.json": {
+        "Plugin pour le superviseur ewattch": "Plugin for the ewattch supervisor"
     }
 }

@@ -1,13 +1,36 @@
 {
     "id": "ewattch",
     "name": "Ewattch",
-    "description": "Plugin pour le superviseur ewattch",
+    "description": {
+        "fr_FR": "Plugin pour le superviseur ewattch",
+        "en_US": "Plugin for the ewattch supervisor",
+        "es_ES": "Plugin para el supervisor de ewattch",
+        "de_DE": "Plugin für den ewattch Supervisor",
+        "pt_PT": "Plug-in para o supervisor ewattch"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
     "category": "energy",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ewattch\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ewattch\/",
-    "language" : ["fr_FR","en_US","de_DE","sp_SP"],
-"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
